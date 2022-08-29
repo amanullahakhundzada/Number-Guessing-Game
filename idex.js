@@ -1,20 +1,20 @@
-const randomNumber = Math.floor(Math.random() * 100) + 1;
-// let randomNumber = 7;
-let playing = true;
-while (playing) {
-  checkGuess();
-}
-function checkGuess() {
-  let myGuess = parseInt(prompt("What is your Guess between 1-100 ?"));
-  if (myGuess === randomNumber) {
-    alert(` WOW You Won! ${myGuess} was a Secret Number`);
-    playing = false;
-  } else if (myGuess > randomNumber) {
-    alert(`Your guess was  ${myGuess} . That's too high. Try Again!`);
-  } else if (myGuess < randomNumber) {
-    alert(`Your guess was  ${myGuess} . That's too low. Try Again!`);
-  }
-}
+// const randomNumber = Math.floor(Math.random() * 100) + 1;
+// // let randomNumber = 7;
+// let playing = true;
+// while (playing) {
+//   checkGuess();
+// }
+// function checkGuess() {
+//   let myGuess = parseInt(prompt("What is your Guess between 1-100 ?"));
+//   if (myGuess === randomNumber) {
+//     alert(` WOW You Won! ${myGuess} was a Secret Number`);
+//     playing = false;
+//   } else if (myGuess > randomNumber) {
+//     alert(`Your guess was  ${myGuess} . That's too high. Try Again!`);
+//   } else if (myGuess < randomNumber) {
+//     alert(`Your guess was  ${myGuess} . That's too low. Try Again!`);
+//   }
+// }
 
 // console.log("Hello World!");
 
